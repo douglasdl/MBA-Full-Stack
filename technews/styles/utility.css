@@ -11,6 +11,10 @@
   grid-template-columns: 1fr 1fr;
 }
 
+.grid-cols-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
 .gap-16 {
   gap: 16px;
 }
