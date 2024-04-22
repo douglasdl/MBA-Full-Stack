@@ -28,8 +28,19 @@
 
     padding: 24px;
 
+    &:has(.text-lg) {
+      padding: 12px;
+    }
+
     h2 {
       margin-top: 8px;
+
+      /* Display only 3 lines and add ... if the text can't fit */
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
     }
   }
 }
