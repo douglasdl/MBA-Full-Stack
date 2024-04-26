@@ -6,6 +6,10 @@ Carga horária — 72h
 
 - Fundamentos da Web
 - HTML, CSS e Javascript do básico ao avançado
+    - [Project 1](https://douglasdl.github.io/MBA-Full-Stack/projeto/)
+    - [Cupcake Recipe](https://douglasdl.github.io/MBA-Full-Stack/receita/)
+    - [Travelgram](https://douglasdl.github.io/MBA-Full-Stack/travelgram/)
+    - [Technews](https://douglasdl.github.io/MBA-Full-Stack/technews/)
 - Javascript antes do framework
 - Typescript
 - Git & Github
