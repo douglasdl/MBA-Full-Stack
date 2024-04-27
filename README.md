@@ -12,6 +12,9 @@ Carga horária — 72h
     - [Technews](https://douglasdl.github.io/MBA-Full-Stack/technews/)
     - [Registration Form](https://douglasdl.github.io/MBA-Full-Stack/registration-form)
 - Javascript antes do framework
+    - [Convert](https://douglasdl.github.io/MBA-Full-Stack/convert)
+    - [Refund](https://douglasdl.github.io/MBA-Full-Stack/refund)
+    - [Hair Day](https://douglasdl.github.io/MBA-Full-Stack/hair-day)
 - Typescript
 - Git & Github
 - Atividades complementares, tech challenge de projetos para portfólio
