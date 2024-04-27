@@ -1,0 +1,345 @@
+<p>Fundamental attributes:</p>
+<ul>
+  <li>type</li>
+  <li>name</li>
+</ul>
+<p>General attributes:</p>
+<ul>
+  <li>value</li>
+  <li>autocomplete</li>
+  <li>size !</li>
+  <li>autofocus</li>
+  <li>disabled</li>
+  <li>readonly !</li>
+  <li>form !</li>
+  <li>required !</li>
+  <li>placeholder !</li>
+</ul>
+
+<h2>Text Input</h2>
+<form>  
+  <input type="text" name="nome" /> 
+  <input type="text" name="nome" value="Douglas" />
+  <input type="text" name="email" autocomplete="email" />
+  <input type="text" name="nome" size="5" />
+  <input type="text" name="nome" autofocus />
+  <input type="text" name="nome" disabled />
+  <input type="text" name="nome" value="R/O" readonly />
+  
+</form>
+
+<form id="myForm">
+  <button>Submit</button>
+</form>
+<input type="text" name="external" form="myForm" />
+
+<form>
+  <input type="text" name="email" required />
+  <input type="text" name="name" placeholder="Name" />
+  <button>Submit</button>
+</form>
+
+<h2>Number Input</h2>
+<p>Attributes:</p>
+<ul>
+  <li>min</li>
+  <li>max</li>
+  <li>step</li>
+</ul>
+
+<p>General attributes:</p>
+<ul>
+  <li>value</li>
+  <li>autocomplete</li>
+  <li>autofocus</li>
+  <li>disabled</li>
+  <li>readonly</li>
+  <li>form</li>
+  <li>required</li>
+  <li>placeholder</li>
+</ul>
+
+<form>
+  <input type="number" min="0" max="12" step="2">
+  <input 
+    type="number" 
+    placeholder="number" 
+    required
+    autofocus
+  >
+  <input type="number" value="10" readonly>
+  <button>Submit</button>
+</form>
+
+<form id="myForm2">
+  <button>Submit</button>
+</form>
+<input type="number" name="ext-number" form="myForm2">
+
+<h2>E-mail Input</h2>
+<p>Attributes:</p>
+<ul>
+  <li>minlength</li>
+  <li>maxlength</li>
+  <li>pattern</li>
+  <li>title</li>
+</ul>
+
+<p>General attributes:</p>
+<ul>
+  <li>value</li>
+  <li>autocomplete</li>
+  <li>autofocus</li>
+  <li>disabled</li>
+  <li>readonly</li>
+  <li>form</li>
+  <li>required</li>
+  <li>placeholder</li>
+</ul>
+
+<form>
+  <input type="email" name="email" id="email" />
+  <input type="email" name="email" minlength="7" maxlength="10" />
+  <input 
+    type="email" 
+    name="email" 
+    required
+    pattern=".+@hotmail\.com)" 
+    title="E-mail apenas @hotmail.com"  
+  />
+  <button>Submit</button>
+</form>
+
+<h2>Password Input</h2>
+<p>Attributes:</p>
+<ul>
+  <li>minlength</li>
+  <li>maxlength</li>
+  <li>pattern</li>
+  <li>inputmode</li>
+  <li>title</li>
+</ul>
+
+<p>General attributes:</p>
+<ul>
+  <li>value</li>
+  <li>autocomplete</li>
+  <li>autofocus</li>
+  <li>disabled</li>
+  <li>readonly</li>
+  <li>form</li>
+  <li>required</li>
+  <li>placeholder</li>
+</ul>
+
+<form>
+  <input 
+    type="password" 
+    inputmode="numeric"
+    pattern="[0-9a-fA-F]{4,8}"
+    title="Hexadecimal numbers"
+  />
+  <button>Submit</button>
+</form>
+
+<h2>File Input</h2>
+<p>Attributes:</p>
+<ul>
+  <li>multiple</li>
+  <li>accept="image/*"</li>
+  <li>accept="video/*"</li>
+  <li>accept=".png"</li>
+  <li>accept="audio/mp3"</li>
+  <li>value (backend)</li>
+  <li>files (backend)</li>
+</ul>
+
+<p>General attributes:</p>
+<ul>
+  <li>value</li>
+  <li>autocomplete</li>
+  <li>autofocus</li>
+  <li>disabled</li>
+  <li>readonly</li>
+  <li>form</li>
+  <li>required</li>
+  <li>placeholder</li>
+</ul>
+
+<form enctype="multipart/form-data">
+  <input 
+    type="file" 
+    name="foto"
+  />
+  <input 
+    type="file" 
+    name="fotos"
+    multiple
+    accept=".png"
+  />
+  <button>Submit</button>
+</form>
+
+<h2>Range Input</h2>
+<p>Attributes:</p>
+<ul>
+  <li>min</li>
+  <li>max</li>
+  <li>step</li>
+</ul>
+
+<p>General attributes:</p>
+<ul>
+  <li>value</li>
+  <li>autofocus</li>
+  <li>disabled</li>
+  <li>readonly</li>
+  <li>form</li>
+  <li>required</li>
+</ul>
+
+<form>
+  <input 
+    type="range" 
+    min="0"
+    max="100"
+    step="10"
+  />
+  <button>Submit</button>
+</form>
+
+<h2>Color Input</h2>
+<p>Attributes:</p>
+<ul>
+  <li>list</li>
+</ul>
+
+<p>General attributes:</p>
+<ul>
+  <li>value</li>
+  <li>autofocus</li>
+  <li>disabled</li>
+  <li>readonly</li>
+  <li>form</li>
+  <li>required</li>
+</ul>
+
+<datalist id="colorpicker">
+  <option value="#FF0000" />
+  <option value="#00FF00" />
+  <option value="#0000FF" />
+</datalist>
+<form>
+  <input 
+    type="color" 
+    name="color"
+    value="#FF0000"
+  />
+  <input 
+    type="color" 
+    name="color"
+    list="colorpicker"
+  />
+  <button>Submit</button>
+</form>
+
+<h2>Checkbox Input</h2>
+<p>Attributes:</p>
+<ul>
+  <li>list</li>
+</ul>
+
+<p>General attributes:</p>
+<ul>
+  <li>value</li>
+  <li>autofocus</li>
+  <li>disabled</li>
+  <li>readonly</li>
+  <li>form</li>
+  <li>required</li>
+</ul>
+
+<form>
+  <input 
+    type="checkbox" 
+    name="options"
+  />
+  <input 
+    type="checkbox" 
+    name="options"
+    value="OK"
+  />
+  <input 
+    type="checkbox" 
+    name="options"
+    value="NO"
+    checked
+  />
+  <button>Submit</button>
+</form>
+
+<h2>Radio Input</h2>
+<p>Attributes:</p>
+<ul>
+  <li>list</li>
+</ul>
+
+<p>General attributes:</p>
+<ul>
+  <li>value</li>
+  <li>autofocus</li>
+  <li>disabled</li>
+  <li>readonly</li>
+  <li>form</li>
+  <li>required</li>
+</ul>
+
+<form>
+  <input 
+    type="radio" 
+    name="options"
+  />
+  <input 
+    type="radio" 
+    name="options"
+    value="OK"
+  />
+  <input 
+    type="radio" 
+    name="options"
+    value="NO"
+    checked
+  />
+  <button>Submit</button>
+</form>
+
+<h2>Hidden Input</h2>
+<p>Attributes:</p>
+<ul>
+  <li>name</li>
+</ul>
+
+<p>General attributes:</p>
+<ul>
+  <li>value</li>
+  <li>form</li>
+</ul>
+
+<form>
+  <input 
+    type="hidden" 
+    name="code"
+    value="123"
+  />
+  <button>Submit</button>
+</form>
+
+<h2>More references and other input types:</h2>
+<a href="https://devdocs.io/">Documentation</a>
+<a href="https://caniuse.com/">caniuse.com</a>
+
+<form>
+  <input type="date" />
+  <input type="time" />
+  <input type="datetime-local" />
+</form>

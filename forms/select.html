@@ -1,0 +1,61 @@
+<h2>Select</h2>
+
+<p>Attributes:</p>
+<ul>
+  <li>name</li>
+  <li>id</li>
+  <li>multiple</li>
+  <li>size</li>
+</ul>
+
+<p>Children</p>
+<ul>
+  <li>option</li>
+  <li>optgroup</li>
+  <ul>
+    <li>option</li>
+  </ul>
+</ul>
+
+<form>
+  <select name="car" id="">
+    <option value="">Select</option>
+    <option label="Fiat" value="fiat" />
+    <option label="Audi" value="audi" />
+  </select>
+  <button>Submit</button>  
+</form>
+
+<form>
+  <select name="cars" id="" multiple>
+    <option value="">Select</option>
+    <option label="Fiat" value="fiat" />
+    <option label="Audi" value="audi" />
+    <option label="BMW" value="bmw" />
+  </select>
+  <button>Submit</button>  
+</form>
+
+<form>
+  <select name="cars" id="" multiple size="2">
+    <option value="">Select</option>
+    <option label="Fiat" value="fiat" />
+    <option label="Audi" value="audi" />
+    <option label="BMW" value="bmw" />
+  </select>
+  <button>Submit</button>  
+</form>
+
+<form>
+  <select name="cars" id="">
+    <option value="">Select</option>
+    <optgroup label="german">
+      <option label="Audi" value="audi" />
+      <option label="BMW" value="bmw" />
+    </optgroup>
+    <optgroup label="italian">
+      <option label="Fiat" value="fiat" />
+    </optgroup>
+  </select>
+  <button>Submit</button>  
+</form>
