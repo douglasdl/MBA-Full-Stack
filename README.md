@@ -10,6 +10,7 @@ Carga horária — 72h
     - [Cupcake Recipe](https://douglasdl.github.io/MBA-Full-Stack/receita/)
     - [Travelgram](https://douglasdl.github.io/MBA-Full-Stack/travelgram/)
     - [Technews](https://douglasdl.github.io/MBA-Full-Stack/technews/)
+    - [Registration Form](https://douglasdl.github.io/MBA-Full-Stack/registration-form)
 - Javascript antes do framework
 - Typescript
 - Git & Github
