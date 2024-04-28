@@ -46,7 +46,7 @@
   --h3: 600 1.25rem/1.2 var(--font-family);
   --h4: 600 1rem/1.2 var(--font-family);
 
-  zoom: 60%;
+  /* zoom: 60%; */
 }
 
 body {
