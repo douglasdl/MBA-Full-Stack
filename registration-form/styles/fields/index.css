@@ -45,3 +45,17 @@ input[type="date"] {
 select {
   background: url("../../assets/icons/arrow-down.svg") no-repeat calc(100% - 1rem);
 }
+
+.address .flex {
+  gap: 1.25rem;
+}
+
+.input-wrapper:has([disabled]) {
+  opacity: 0.5;
+}
+
+input &[disabled] {
+  background-color: var(--surface-disabled);
+  border: var(--stroke-default);
+  color: var(--text-primary);
+}
