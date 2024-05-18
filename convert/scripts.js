@@ -10,6 +10,7 @@ const amount = document.getElementById("amount");
 const currency = document.getElementById("currency");
 const footer = document.querySelector("main footer");
 const description = document.getElementById("description");
+const result = document.getElementById("result");
 
 amount.addEventListener("input", () => {
   const hasRegexCharacteres = /\D+/g
@@ -38,6 +39,13 @@ form.onsubmit = (event) => {
 function convertCurrency(amount, price, symbol) {
   try {
     description.textContent = `${symbol} 1 = ${formatCurrentBRL(price)}`;
+    
+    let total = amount * price;
+    if(isNaN(total)) {
+      return alert("Por favor, digite o valor corretamente!");
+    }
+    total = formatCurrentBRL(total).replace("R$", "");
+    result.textContent = `${total} Reais`;
     footer.classList.add("show-result");
   } catch (error) {
     footer.classList.remove("show-result");
