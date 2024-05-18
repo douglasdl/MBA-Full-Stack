@@ -15,9 +15,13 @@
 
 :root {
   /* Product */
-  --brand-gradient: #FC4A1A #F7B733;
   --brand-color-primary: #F7B733;
   --brand-color-secondary: #FC4A1A;
+  --brand-gradient: linear-gradient(
+    90deg, 
+    var(--brand-color-secondary) 0%, 
+    var(--brand-color-primary) 100%
+  );
 
   /* Base */
   --bg-color: #09090B;
@@ -35,6 +39,7 @@
   --fw-bold: 800;
   --fs-sm: 0.875rem;
   --fs-base: 1rem;
+  --fs-2base: 1.125rem;
   --fs-lg: 1.25rem;
   --fs-xl: 1.5rem;
   --fs-2xl: 2.5rem;
