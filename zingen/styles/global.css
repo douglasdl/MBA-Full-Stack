@@ -56,6 +56,7 @@ html {
   font-size: var(--fs-base);
   color: var(--text-color-primary);
   line-height: 1.6;
+  overflow-x: hidden;
 }
 
 body {
