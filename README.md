@@ -87,3 +87,10 @@ Carga horária — 72h
 - Masterclass online e ao vivo com referências do mercado
 - Projeto de conclusão do módulo
 
+
+
+
+## Other Links
+
+- [Animista](https://animista.net/): CSS Animation.
+- [Cubic Bezier](https://cubic-bezier.com/#.17,.67,.83,.67): CSS Animation.
