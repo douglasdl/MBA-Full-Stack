@@ -71,6 +71,8 @@ function addExpense(newExpense) {
     expenseItem.append(expenseIcon, expenseInfo, expenseAmount, removeIcon);
     expenseList.append(expenseItem);
 
+    formClear();
+
     updateTotals();
   } catch (error) {
     alert("Não foi possível atualizar a lista de despesas.");
@@ -108,4 +110,21 @@ function updateTotals() {
     console.log(error);
     alert("Não foi possível atualizar os totais.")
   }
+}
+
+expenseList.addEventListener("click", function (event) {
+  if(event.target.classList.contains("remove-icon")) {
+    const item = event.target.closest(".expense");
+    item.remove();
+
+    updateTotals();
+  }
+})
+
+function formClear() {
+  expense.value = "";
+  category.value = "";
+  amount.value = "";
+
+  expense.focus();
 }
