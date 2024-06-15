@@ -12,6 +12,7 @@ Carga horária — 72h
     - [Technews](https://douglasdl.github.io/MBA-Full-Stack/technews/)
     - [Registration Form](https://douglasdl.github.io/MBA-Full-Stack/registration-form)
     - [Zingen Landing Page](https://douglasdl.github.io/MBA-Full-Stack/zingen)
+    - [Snitap Animated Landing Page](https://douglasdl.github.io/MBA-Full-Stack/snitap)
 - Javascript antes do framework
     - [Convert](https://douglasdl.github.io/MBA-Full-Stack/convert)
     - [Refund](https://douglasdl.github.io/MBA-Full-Stack/refund)
