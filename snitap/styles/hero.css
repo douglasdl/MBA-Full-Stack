@@ -1,17 +1,11 @@
 section.hero {
-  max-width: 80rem;
-  width: 100%;
-  padding: 2.5rem 2rem;
+  padding: 1.25rem 1.5rem;
   margin-inline: auto;
-
-  & h1 {
-    max-width: 40rem;
-  }
 
   & h1 div {
     display: inline-block;
     overflow: hidden;
-    height: 5rem;
+    height: 3rem;
     width: min-content;
     vertical-align: bottom;
   }
@@ -41,58 +35,159 @@ section.hero {
 
   /* Text 2 in */
   23% {
-    transform: translateY(calc(-5rem - 15px));
+    transform: translateY(calc(-3rem - 15px));
   }
   25% {
-    transform: translateY(calc(-5rem + 10px));
+    transform: translateY(calc(-3rem + 10px));
   }
   27% {
-    transform: translateY(calc(-5rem - 5px));
+    transform: translateY(calc(-3rem - 5px));
   }
   29% {
-    transform: translateY(calc(-5rem + 5px));
+    transform: translateY(calc(-3rem + 5px));
   }
 
   /* Text 2 static */
   33%, 55% {
-    transform: translateY(-5rem);
+    transform: translateY(-3rem);
   }
 
   /* Text 3 in */
   56% {
-    transform: translateY(calc(-10rem - 15px));
+    transform: translateY(calc(-6rem - 15px));
   }
   58% {
-    transform: translateY(calc(-10rem + 10px));
+    transform: translateY(calc(-6rem + 10px));
   }
   60% {
-    transform: translateY(calc(-10rem - 5px));
+    transform: translateY(calc(-6rem - 5px));
   }
   62% {
-    transform: translateY(calc(-10rem + 5px));
+    transform: translateY(calc(-6rem + 5px));
   }
 
   /* Text 3 static */
   66%, 88% {
-    transform: translateY(-10rem);
+    transform: translateY(-6rem);
   }
 
   /* Text 4 in */
   89% {
-    transform: translateY(calc(-15rem - 15px));
+    transform: translateY(calc(-9rem - 15px));
   }
   91% {
-    transform: translateY(calc(-15rem + 10px));
+    transform: translateY(calc(-9rem + 10px));
   }
   93% {
-    transform: translateY(calc(-15rem - 5px));
+    transform: translateY(calc(-9rem - 5px));
   }
   95% {
-    transform: translateY(calc(-15rem + 5px));
+    transform: translateY(calc(-9rem + 5px));
   }
 
   /* Text 4 static */
   100% {
-    transform: translateY(-15rem);
+    transform: translateY(-9rem);
+  }
+}
+
+@media (width>=80em) {
+  section.hero {
+    max-width: 80rem;
+    width: 100%;
+    padding: 2.5rem 2rem;
+    margin-inline: auto;
+  
+    & h1 {
+      max-width: 40rem;
+    }
+  
+    & h1 div {
+      display: inline-block;
+      overflow: hidden;
+      height: 5rem;
+      width: min-content;
+      vertical-align: bottom;
+    }
+  
+    & h1 span:nth-child(1),
+    & h1 span:nth-child(4) {
+      color: var(--snitap-sky-mid);
+    }
+    & h1 span:nth-child(2) {
+      color: var(--snitap-joy-mid);
+    }
+    & h1 span:nth-child(3) {
+      color: var(--snitap-leaf-mid);
+    }
+  
+    & h1 span {
+      display: block;
+      animation: slideUp 6s infinite ease;
+    }
+  }
+
+  @keyframes slideUp {
+    /* Text 1 static */
+    0%, 22% {
+      transform: translateY(0);
+    }
+  
+    /* Text 2 in */
+    23% {
+      transform: translateY(calc(-5rem - 15px));
+    }
+    25% {
+      transform: translateY(calc(-5rem + 10px));
+    }
+    27% {
+      transform: translateY(calc(-5rem - 5px));
+    }
+    29% {
+      transform: translateY(calc(-5rem + 5px));
+    }
+  
+    /* Text 2 static */
+    33%, 55% {
+      transform: translateY(-5rem);
+    }
+  
+    /* Text 3 in */
+    56% {
+      transform: translateY(calc(-10rem - 15px));
+    }
+    58% {
+      transform: translateY(calc(-10rem + 10px));
+    }
+    60% {
+      transform: translateY(calc(-10rem - 5px));
+    }
+    62% {
+      transform: translateY(calc(-10rem + 5px));
+    }
+  
+    /* Text 3 static */
+    66%, 88% {
+      transform: translateY(-10rem);
+    }
+  
+    /* Text 4 in */
+    89% {
+      transform: translateY(calc(-15rem - 15px));
+    }
+    91% {
+      transform: translateY(calc(-15rem + 10px));
+    }
+    93% {
+      transform: translateY(calc(-15rem - 5px));
+    }
+    95% {
+      transform: translateY(calc(-15rem + 5px));
+    }
+  
+    /* Text 4 static */
+    100% {
+      transform: translateY(-15rem);
+    }
   }
 }
