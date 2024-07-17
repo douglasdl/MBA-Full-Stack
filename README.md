@@ -27,6 +27,7 @@ Carga horária — 72h
 Carga horária — 72h
 
 - Iniciando com React
+    - [Ignite Feed](https://douglasdl.github.io/MBA-Full-Stack/ignite-feed)
 - Criando SPAs com React
 - Consumo de API e performance no React
 - Vite, React Router DOM, React Hook Form, shadcn/ui, React Query e Vitest (Projeto Pizza Shop)
