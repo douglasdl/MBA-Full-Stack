@@ -1,15 +1,20 @@
 {
   "name": "hair-day",
   "version": "1.0.0",
-  "description": "- [Figma](https://www.figma.com/community/file/1360316357733167308)",
+  "description": "Web App for hair cut schedulling",
   "main": "index.js",
   "scripts": {
     "server": "json-server --watch server.json --port 3333",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "author": "Douglas Dias Leal",
   "license": "ISC",
   "dependencies": {
     "json-server": "^1.0.0-alpha.21"
+  },
+  "devDependencies": {
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
   }
 }

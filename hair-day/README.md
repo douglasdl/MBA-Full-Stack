@@ -7,4 +7,11 @@ Install the dependencies:
 ```sh
 npm init -y
 npm i json-server@1.0.0-alpha.21
+npm i -D webpack@5.89.0 webpack-cli@5.1.4
+```
+
+Run the server:
+
+```sh
+npm run server
 ```
