@@ -12,6 +12,7 @@ npm i -D webpack-dev-server@4.15.1
 npm i -D html-webpack-plugin@5.6.0
 npm i -D style-loader@3.3.3 css-loader@6.8.1
 npm i -D copy-webpack-plugin@11.0.0
+npm i -D babel-loader@9.1.3 @babel/core@7.23.7 @babel/preset-env@7.23.7
 ```
 
 Run the server:
