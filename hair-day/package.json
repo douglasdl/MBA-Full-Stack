@@ -1,0 +1,15 @@
+{
+  "name": "hair-day",
+  "version": "1.0.0",
+  "description": "- [Figma](https://www.figma.com/community/file/1360316357733167308)",
+  "main": "index.js",
+  "scripts": {
+    "server": "json-server --watch server.json --port 3333",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Douglas Dias Leal",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-alpha.21"
+  }
+}
