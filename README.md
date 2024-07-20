@@ -22,6 +22,7 @@ Carga horária — 72h
 - Atividades complementares, tech challenge de projetos para portfólio
 - Masterclass online e ao vivo com referências do mercado
 - Projeto de conclusão do módulo
+    - [Member Club](https://douglasdl.github.io/MBA-Full-Stack/member-club)
 
 ## 02 - Desenvolvimento Web Front-end
 Carga horária — 72h
