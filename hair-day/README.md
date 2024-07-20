@@ -7,6 +7,7 @@ Install the dependencies:
 ```sh
 npm init -y
 npm i json-server@1.0.0-alpha.21
+npm i dayjs@1.11.10
 npm i -D webpack@5.89.0 webpack-cli@5.1.4
 npm i -D webpack-dev-server@4.15.1
 npm i -D html-webpack-plugin@5.6.0
