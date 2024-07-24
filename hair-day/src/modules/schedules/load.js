@@ -10,5 +10,5 @@ export async function schedulesDay() {
   const dailySchedules = await scheduleFetchByDay({ date })
   showSchedules({ dailySchedules })
 
-  hoursLoad({ date })
+  hoursLoad({ date, dailySchedules })
 }
