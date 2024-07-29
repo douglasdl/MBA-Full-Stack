@@ -1,5 +1,6 @@
 # Member Club
 
+- View the web page [here](https://douglasdl.github.io/MBA-Full-Stack/member-club/dist/index.html)
 - [Notion](https://efficient-sloth-d85.notion.site/Desafio-pr-tico-Member-Club-d74427774cc84a4d979e72b6cca953c7)
 - [Figma](https://www.figma.com/design/MK95fsV2Ds6N2XYO98uusZ/Cart%C3%A3o-fidelidade?node-id=0-1&t=mygJN6h9asT45TOe-0)
 - [Export Styles to css variable](https://www.figma.com/community/plugin/1332412206147274506/export-styles-and-variables-to-css) - Figma Plugin.
@@ -17,18 +18,18 @@
 
 ## Features
 
-- [ ] It must be possible to search for customer information using an ID;
-- [ ] There must be validation to know if it is a valid and existing ID;
-- [ ] An error alert should appear on the screen if it is an invalid ID;
+- [x] It must be possible to search for customer information using an ID;
+- [x] There must be validation to know if it is a valid and existing ID;
+- [x] An error alert should appear on the screen if it is an invalid ID;
 
 ## Successfully Show Client Data
 
-- [ ] The customer's image must be displayed on the screen;
-- [ ] The name of the customer must be displayed on the screen;
-- [ ] The cutting history with quantity, date and time must be displayed on the screen;
-- [ ] There must be a check on the loyalty card for each haircut the customer has;
-- [ ] A progress with the number of cuts remaining for the prize must be displayed on the screen;
-- [ ] A congratulations modal should appear on the screen with the message: “Congratulations! Your next cut is free!” if the customer has reached 10 cuts;
+- [x] The customer's image must be displayed on the screen;
+- [x] The name of the customer must be displayed on the screen;
+- [x] The cutting history with quantity, date and time must be displayed on the screen;
+- [x] There must be a check on the loyalty card for each haircut the customer has;
+- [x] A progress with the number of cuts remaining for the prize must be displayed on the screen;
+- [x] A congratulations modal should appear on the screen with the message: “Congratulations! Your next cut is free!” if the customer has reached 10 cuts;
 
 ## Project
 

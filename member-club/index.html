@@ -15,21 +15,23 @@
         <img src="./src/assets/Logo.png" alt="Logo">
       </header>
   
-      <fieldset class="input">
-        <input type="text" name="" id="" placeholder="ID do cartão">
-        <button class="button">
-          <i class="ph ph-arrow-elbow-down-left" style="color: white"></i>
-        </button>
-      </fieldset>
+      <form>
+        <fieldset class="input">
+          <input type="text" name="card-id" id="card-id" placeholder="ID do cartão" required>
+          <button class="button">
+            <i class="ph ph-arrow-elbow-down-left" style="color: white"></i>
+          </button>
+        </fieldset>
+      </form>
 
       <main>
         <div class="blank-card user">
           <div class="avatar">
-            <img src="https://www.github.com/douglasdl.png" alt="avatar">
+            <img src="https://www.github.com/douglasdl.png" alt="avatar" id="avatar-image">
           </div>
           <div class="info">
-            <span class="name">Douglas Dias Leal</span>
-            <span class="client-since">Cliente desde 18/09/2023</span>
+            <span class="name" id="name">Douglas Dias Leal</span>
+            <span class="client-since">Cliente desde <span id="client-since-date">01/01/2021</span></span>
           </div>
         </div>
   
@@ -40,39 +42,40 @@
               <span class="description">Ao fazer cortes de cabelo, o décimo sai de graça!</span>
             </header>
             <div class="id-tag">
-              <span class="subtitle-sm">ID: 124-537-835-230</span>
+              <span class="subtitle-sm">ID: <span id="card-id-info">111-222-333-444</span></span>
             </div>
           </div>
           <div class="slots">
-            <div class="slot">
-              <img src="./src/assets/PinCheck.png" alt="">
+            <div class="slot" id="slot1">
+              <img src="./src/assets/PinCheck.png" alt="" class="checked">
             </div>
-            <div class="slot">
-              <img src="./src/assets/PinCheck.png" alt="">
+            <div class="slot" id="slot2">
+              <img src="./src/assets/PinCheck.png" alt="" class="checked">
             </div>
-            <div class="slot">
-              <img src="./src/assets/PinCheck.png" alt="">
+            <div class="slot" id="slot3">
+              <img src="./src/assets/PinCheck.png" alt="" class="checked">
             </div>
-            <div class="slot">
-              <img src="./src/assets/PinCheck.png" alt="">
+            <div class="slot" id="slot4">
+              <img src="./src/assets/PinCheck.png" alt="" class="checked">
             </div>
-            <div class="slot">
-              <img src="./src/assets/PinCheck.png" alt="">
+            <div class="slot" id="slot5">
+              <img src="./src/assets/PinCheck.png" alt="" class="checked">
             </div>
-            <div class="slot">
-              <img src="./src/assets/PinCheck.png" alt="">
+            <div class="slot" id="slot6">
+              <img src="./src/assets/PinCheck.png" alt="" class="checked">
             </div>
-            <div class="slot">
-              <img src="./src/assets/PinCheck.png" alt="">
+            <div class="slot" id="slot7">
+              <img src="./src/assets/PinCheck.png" alt="" class="unchecked">
             </div>
-            <div class="slot">
-              
+            <div class="slot" id="slot8">
+              <img src="./src/assets/PinCheck.png" alt="" class="unchecked">
             </div>
-            <div class="slot">
-              
+            <div class="slot" id="slot9">
+              <img src="./src/assets/PinCheck.png" alt="" class="unchecked">
             </div>
-            <div class="slot">
-              <img src="./src/assets/PinGiftGray.svg" alt="" class="gift-gray ">
+            <div class="slot" id="slot10">
+              <img src="./src/assets/PinCheck.png" alt="" class="unchecked">
+              <img src="./src/assets/PinGiftGray.svg" alt="" class="gift-gray">
             </div>
           </div>
         </div>
@@ -80,13 +83,15 @@
         <div class="blank-card progress">
           <div class="content">
             <span>
-              <strong>3</strong> cortes restantes
+              <strong id="cuts-remaining">4</strong> cortes restantes
             </span>
             <div class="linear-progress">
               <div class="bar">
                 <div class="progress-indicator"></div>
               </div>
-              <span>7 de 10</span>
+              <span id="total-of-needed">
+                6 de 10
+              </span>
             </div>
           </div>
           <div class="item">
@@ -97,13 +102,13 @@
         <div class="blank-card history">
           <header>
             <span class="title subtitle-sm">Histórico</span>
-            <span>7 cortes</span>
+            <span id="total-cuts">6 cortes</span>
           </header>
-          <div class="list">
+          <div class="list" id="list">
             <div class="row">
               <div class="row-title">
-                <strong>29/04/2024</strong>
-                <span>18:30</span>
+                <strong>01/01/2021</strong>
+                <span>19:00</span>
               </div>
               <div class="icon">
                 <i class="ph ph-seal-check" style="color: rgb(69, 180, 66)"></i>
@@ -111,8 +116,8 @@
             </div>
             <div class="row">
               <div class="row-title">
-                <strong>29/04/2024</strong>
-                <span>18:30</span>
+                <strong>30/01/2022</strong>
+                <span>19:00</span>
               </div>
               <div class="icon">
                 <i class="ph ph-seal-check" style="color: rgb(69, 180, 66)"></i>
@@ -120,8 +125,8 @@
             </div>
             <div class="row">
               <div class="row-title">
-                <strong>29/04/2024</strong>
-                <span>18:30</span>
+                <strong>20/03/2023</strong>
+                <span>19:00</span>
               </div>
               <div class="icon">
                 <i class="ph ph-seal-check" style="color: rgb(69, 180, 66); font-size: 24px;"></i>
@@ -129,8 +134,8 @@
             </div>
             <div class="row">
               <div class="row-title">
-                <strong>29/04/2024</strong>
-                <span>18:30</span>
+                <strong>11/05/2023</strong>
+                <span>19:00</span>
               </div>
               <div class="icon">
                 <i class="ph ph-seal-check" style="color: rgb(69, 180, 66)"></i>
@@ -138,8 +143,8 @@
             </div>
             <div class="row">
               <div class="row-title">
-                <strong>29/04/2024</strong>
-                <span>18:30</span>
+                <strong>12/03/2024</strong>
+                <span>19:00</span>
               </div>
               <div class="icon">
                 <i class="ph ph-seal-check" style="color: rgb(69, 180, 66)"></i>
@@ -147,17 +152,8 @@
             </div>
             <div class="row">
               <div class="row-title">
-                <strong>29/04/2024</strong>
-                <span>18:30</span>
-              </div>
-              <div class="icon">
-                <i class="ph ph-seal-check" style="color: rgb(69, 180, 66)"></i>
-              </div>
-            </div>
-            <div class="row">
-              <div class="row-title">
-                <strong>29/04/2024</strong>
-                <span>18:30</span>
+                <strong>18/05/2024</strong>
+                <span>19:00</span>
               </div>
               <div class="icon">
                 <i class="ph ph-seal-check" style="color: rgb(69, 180, 66)"></i>
