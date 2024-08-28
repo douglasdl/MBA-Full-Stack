@@ -47,6 +47,7 @@ Carga horária — 72h
 Carga horária — 72h
 
 - Fundamentos do Node.js
+  - [nodejs-fundaments](https://douglasdl.github.io/MBA-Full-Stack/nodejs-fundaments)
 - Criando API REST com Node.js
 - API Node.js com SOLID
 - DDD no Node.js
