@@ -22,3 +22,8 @@ Start the project with watch flag:
 ```sh
 node --watch src/server.js
 ```
+
+Run the streams example:
+```sh
+node streams/fundamentals.js
+```
