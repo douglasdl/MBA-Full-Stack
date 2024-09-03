@@ -27,3 +27,8 @@ Run the streams example:
 ```sh
 node streams/fundamentals.js
 ```
+
+## API Tests Tools
+- [Insominia](https://insomnia.rest/download)
+- [Postman](https://www.postman.com/)
+- [Hoppscotch](https://hoppscotch.io/)
