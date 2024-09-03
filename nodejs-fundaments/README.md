@@ -23,9 +23,10 @@ Start the project with watch flag:
 node --watch src/server.js
 ```
 
-Run the streams example:
+Run the streams examples:
 ```sh
 node streams/fundamentals.js
+node streams/buffer.js
 ```
 
 ## API Tests Tools
