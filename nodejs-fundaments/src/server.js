@@ -3,16 +3,6 @@ import { json } from './middlewares/json.js'
 import { routes } from './routes.js'
 import { extractQueryParams } from './utils/extract-query-params.js'
 
-// Query Parameters: URL stateful => filter, pagination, optional info
-//   http://localhost:3333/users?userId=1&name=Douglas
-
-// Route Parameters: resource identification
-//   GET    http://localhost:3333/users/1
-
-// DELETE http://localhost:3333/users/1
-// Request Body: send form info (HTTPS)
-// POST   http://localhost:3333/users
-
 const server = http.createServer(async (request, response) => {
   const { method, url } = request
 
