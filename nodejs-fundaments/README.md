@@ -33,3 +33,6 @@ node streams/buffer.js
 - [Insominia](https://insomnia.rest/download)
 - [Postman](https://www.postman.com/)
 - [Hoppscotch](https://hoppscotch.io/)
+
+## VS Code Extensions:
+- [Regex Previewer](https://marketplace.visualstudio.com/items?itemName=chrmarti.regex)
