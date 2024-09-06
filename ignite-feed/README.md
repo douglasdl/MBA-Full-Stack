@@ -49,6 +49,7 @@ npm create vite@latest
 Install the dependencies:
 ```sh
 npm i
+npm i phosphor-react
 ```
 
 Start the project:
@@ -63,3 +64,6 @@ npm run dev
 
 ## Images
 - [Unsplash](https://unsplash.com/pt-br)
+
+## Icons
+- [Phosphor Icons](https://phosphoricons.com/)
