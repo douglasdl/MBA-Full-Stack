@@ -55,3 +55,5 @@ Start the project:
 ```sh
 npm run dev
 ```
+
+- [Google Fonts - Roboto](https://fonts.google.com/selection/embed)
