@@ -50,6 +50,7 @@ Install the dependencies:
 ```sh
 npm i
 npm i phosphor-react
+npm i date-fns
 ```
 
 Start the project:
@@ -67,3 +68,6 @@ npm run dev
 
 ## Icons
 - [Phosphor Icons](https://phosphoricons.com/)
+
+- [INTL](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Intl)
+- [Date FNS](https://date-fns.org/)

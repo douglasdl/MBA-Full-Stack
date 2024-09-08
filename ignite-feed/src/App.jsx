@@ -43,9 +43,9 @@ const posts = [
   {
     id: 2,
     author: {
-      avatarUrl: "https://github.com/douglasdl.png",
-      name: "Douglas Dias Leal",
-      role: "Web Developer"
+      avatarUrl: "https://github.com/douglas.png",
+      name: "Douglas",
+      role: "Developer"
     },
     content: [
       {
@@ -61,16 +61,8 @@ const posts = [
         content: 'douglasdl/doctorcare'
       },
       {
-        type: 'hashTag',
-        content: '#novoprojeto'
-      },
-      {
-        type: 'hashTag',
-        content: '#nlw'
-      },
-      {
-        type: 'hashTag',
-        content: '#rocketseat'
+        type: 'hashTags',
+        content: ['#novoprojeto', '#nlw', '#rocketseat']
       }
     ],
     publishedAt: new Date('2024-09-05 20:00:00')
