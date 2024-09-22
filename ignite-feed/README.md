@@ -71,3 +71,6 @@ npm run dev
 
 - [INTL](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Intl)
 - [Date FNS](https://date-fns.org/)
+
+
+- [React Dev Tools](https://react.dev/learn/react-developer-tools)
