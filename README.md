@@ -32,7 +32,9 @@ Carga horária — 72h
 
 - Iniciando com React
   - [Ignite Feed](https://douglasdl.github.io/MBA-Full-Stack/ignite-feed)
+  - [Ignite Feed - TS](https://douglasdl.github.io/MBA-Full-Stack/ignite-feed-ts)
 - Criando SPAs com React
+  - [Ignite Timer](https://douglasdl.github.io/MBA-Full-Stack/ignite-timer)
 - Consumo de API e performance no React
 - Vite, React Router DOM, React Hook Form, shadcn/ui, React Query e Vitest (Projeto Pizza Shop)
 - Fundamentos do Next.js
