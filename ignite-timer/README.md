@@ -24,3 +24,6 @@ npm i @types/styled-components -D
 
 VS Code Extensions:
 - [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=styled-components.vscode-styled-components)
+
+
+- [Google Fonts - Roboto, Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono?query=roboto+mono)
