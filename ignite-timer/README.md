@@ -20,3 +20,7 @@ npm i @types/styled-components -D
 - [Layout](https://www.figma.com/design/vH0qteueRPpQmvnhHvzqLH/Ignite-Timer?t=6Ve5KA0TGqEvjcOq-0)
 
 - [Styled Components](https://styled-components.com/)
+
+
+VS Code Extensions:
+- [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=styled-components.vscode-styled-components)
