@@ -12,6 +12,7 @@ npm i react-router-dom
 npm i @phosphor-icons/react
 # or
 npm i phosphor-react
+npm install react-hook-form
 npm i @types/styled-components -D
 npm i eslint -D
 npm i @rocketseat/eslint-config -D
@@ -33,7 +34,8 @@ npx eslint --ext .tsx,.ts src/
 ## Packages / Libraries
 - [Styled Components](https://styled-components.com/)
 - [React Router](https://reactrouter.com/en/main)
--[Phosphor Icons](https://github.com/phosphor-icons/react)
+- [Phosphor Icons](https://github.com/phosphor-icons/react)
+- [React Hook Form](https://react-hook-form.com/) 
 
 VS Code Extensions:
 - [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=styled-components.vscode-styled-components)
