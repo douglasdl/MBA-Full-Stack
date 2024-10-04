@@ -13,6 +13,8 @@ npm i @phosphor-icons/react
 # or
 npm i phosphor-react
 npm install react-hook-form
+npm install zod
+npm i @hookform/resolvers
 npm i @types/styled-components -D
 npm i eslint -D
 npm i @rocketseat/eslint-config -D
@@ -36,6 +38,7 @@ npx eslint --ext .tsx,.ts src/
 - [React Router](https://reactrouter.com/en/main)
 - [Phosphor Icons](https://github.com/phosphor-icons/react)
 - [React Hook Form](https://react-hook-form.com/) 
+- [Zod](https://zod.dev/) - [Yup](https://github.com/jquense/yup) - [Joi](https://joi.dev/): data validation.
 
 VS Code Extensions:
 - [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=styled-components.vscode-styled-components)
