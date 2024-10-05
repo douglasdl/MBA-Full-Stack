@@ -15,6 +15,7 @@ npm i phosphor-react
 npm install react-hook-form
 npm install zod
 npm i @hookform/resolvers
+npm i date-fns
 npm i @types/styled-components -D
 npm i eslint -D
 npm i @rocketseat/eslint-config -D
