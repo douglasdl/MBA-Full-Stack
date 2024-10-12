@@ -24,6 +24,7 @@ npm i @radix-ui/react-radio-group
 npm i react-hook-form
 npm i zod
 npm i @hookform/resolvers
+npm i axios
 ```
 
 Install the development dependencies:
