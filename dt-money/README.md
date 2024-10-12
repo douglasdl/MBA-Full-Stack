@@ -30,6 +30,7 @@ npm i react-hook-form
 npm i zod
 npm i @hookform/resolvers
 npm i axios
+npm i use-context-selector scheduler
 ```
 
 Install the development dependencies:
@@ -85,7 +86,7 @@ new Date().toISOString()
 
 ## 3. 3 Performance
 
-- Using React DevTools
+- Using [React DevTools](https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
 - Applying Context Selectors
 - Applying useCallback
 - Applying memo
