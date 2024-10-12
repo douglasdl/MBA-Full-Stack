@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "dev:server": "json-server server.json --host 192.168.10.112 -p 3333 -w -d 500",
+    "dev:server": "json-server server.json --host 192.168.3.10 -p 3333 -w -d 500",
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
