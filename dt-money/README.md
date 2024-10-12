@@ -5,6 +5,11 @@ Create the project:
 npm create vite@latest
 ```
 
+Run the ESLint:
+```sh
+npx eslint src --ext .tsx,.ts
+```
+
 Start the Project:
 ```sh
 npm run dev
@@ -31,6 +36,7 @@ Install the development dependencies:
 ```sh
 npm i @types/styled-components -D
 npm i json-server -D
+npm i eslint @rocketseat/eslint-config -D
 ```
 
 ## Fonts:
