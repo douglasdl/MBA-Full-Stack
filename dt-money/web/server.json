@@ -23,6 +23,22 @@
       "category": "Contas",
       "price": 500,
       "createdAt": "2023-06-10T04:00:00.769Z"
+    },
+    {
+      "description": "Dividendos MXRF11",
+      "price": 11,
+      "category": "FII",
+      "type": "income",
+      "createdAt": "2024-10-12T07:58:51.134Z",
+      "id": 4
+    },
+    {
+      "description": "Jantar",
+      "price": 50,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2024-10-12T08:41:33.193Z",
+      "id": 5
     }
-  ] 
+  ]
 }
