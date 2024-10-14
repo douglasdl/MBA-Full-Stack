@@ -12,6 +12,9 @@ npm i
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 npm i @types/node -D
+npm i eslint @rocketseat/eslint-config -D
+npm i prettier-plugin-tailwindcss -D
+npm i eslint-plugin-simple-import-sort -D
 ```
 
 Install the dependencies (pnpm):
@@ -20,6 +23,9 @@ pnpm i
 pnpm add -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 pnpm i @types/node -D
+pnpm i eslint @rocketseat/eslint-config -D
+pnpm i prettier-plugin-tailwindcss -D
+pnpm i eslint-plugin-simple-import-sort -D
 ```
 
 Init the Shadcn (npm):
@@ -47,7 +53,13 @@ Start the project:
 npm run dev
 ```
 
-
+## Packages
 - Radix
 - Tailwind
 - [Shadcn](https://ui.shadcn.com/)
+- [Prettier Tailwind](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier)
+
+## VS Code Extensions
+
+- [PostCSS Language Support](https://marketplace.visualstudio.com/items?itemName=csstools.postcss)
+- [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
