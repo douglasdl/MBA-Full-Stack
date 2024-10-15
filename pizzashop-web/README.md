@@ -15,6 +15,7 @@ npm i @types/node -D
 npm i eslint @rocketseat/eslint-config -D
 npm i prettier-plugin-tailwindcss -D
 npm i eslint-plugin-simple-import-sort -D
+npm i react-router-dom localforage match-sorter sort-by
 ```
 
 Install the dependencies (pnpm):
@@ -26,6 +27,7 @@ pnpm i @types/node -D
 pnpm i eslint @rocketseat/eslint-config -D
 pnpm i prettier-plugin-tailwindcss -D
 pnpm i eslint-plugin-simple-import-sort -D
+pnpm i react-router-dom localforage match-sorter sort-by
 ```
 
 Init the Shadcn (npm):
@@ -58,6 +60,7 @@ npm run dev
 - Tailwind
 - [Shadcn](https://ui.shadcn.com/)
 - [Prettier Tailwind](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier)
+- [React Router DOM](https://reactrouter.com/en/main)
 
 ## VS Code Extensions
 
