@@ -45,11 +45,15 @@ pnpm dlx shadcn@latest init
 Install the needed components from Shadcn (npm):
 ```sh
 npx shadcn-ui@latest add button
+npx shadcn-ui@latest add input
+npx shadcn-ui@latest add label
 ```
 
 Install the needed components from Shadcn (pnpm):
 ```sh
 pnpm dlx shadcn@latest add button
+pnpm dlx shadcn@latest add input
+pnpm dlx shadcn@latest add label
 ```
 
 Start the project:
