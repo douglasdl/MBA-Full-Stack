@@ -17,6 +17,8 @@ npm i prettier-plugin-tailwindcss -D
 npm i eslint-plugin-simple-import-sort -D
 npm i react-router-dom localforage match-sorter sort-by
 npm i react-helmet-async
+npm i react-hook-form zod @hookform/resolvers
+npm i sonner
 ```
 
 Install the dependencies (pnpm):
@@ -31,6 +33,7 @@ pnpm i eslint-plugin-simple-import-sort -D
 pnpm i react-router-dom localforage match-sorter sort-by
 pnpm i react-helmet-async
 pnpm i react-hook-form zod @hookform/resolvers
+pnpm i sonner
 ```
 
 Init the Shadcn (npm):
@@ -71,6 +74,7 @@ npm run dev
 - [React Helmet Async](https://github.com/staylor/react-helmet-async)
 - React Hook Form
 - Zod
+- [Sonner](https://sonner.emilkowal.ski/)
 
 ## VS Code Extensions
 
