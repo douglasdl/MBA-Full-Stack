@@ -30,6 +30,7 @@ pnpm i prettier-plugin-tailwindcss -D
 pnpm i eslint-plugin-simple-import-sort -D
 pnpm i react-router-dom localforage match-sorter sort-by
 pnpm i react-helmet-async
+pnpm i react-hook-form zod @hookform/resolvers
 ```
 
 Init the Shadcn (npm):
@@ -68,6 +69,8 @@ npm run dev
 - [Prettier Tailwind](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier)
 - [React Router DOM](https://reactrouter.com/en/main)
 - [React Helmet Async](https://github.com/staylor/react-helmet-async)
+- React Hook Form
+- Zod
 
 ## VS Code Extensions
 
