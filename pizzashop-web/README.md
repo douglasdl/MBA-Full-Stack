@@ -51,6 +51,7 @@ Install the needed components from Shadcn (npm):
 npx shadcn-ui@latest add button
 npx shadcn-ui@latest add input
 npx shadcn-ui@latest add label
+npx shadcn-ui@latest add separator
 ```
 
 Install the needed components from Shadcn (pnpm):
@@ -58,6 +59,7 @@ Install the needed components from Shadcn (pnpm):
 pnpm dlx shadcn@latest add button
 pnpm dlx shadcn@latest add input
 pnpm dlx shadcn@latest add label
+pnpm dlx shadcn@latest add separator
 ```
 
 Start the project:
