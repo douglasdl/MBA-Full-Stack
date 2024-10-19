@@ -19,6 +19,7 @@ npm i react-router-dom localforage match-sorter sort-by
 npm i react-helmet-async
 npm i react-hook-form zod @hookform/resolvers
 npm i sonner
+npm i recharts
 ```
 
 Install the dependencies (pnpm):
@@ -34,6 +35,7 @@ pnpm i react-router-dom localforage match-sorter sort-by
 pnpm i react-helmet-async
 pnpm i react-hook-form zod @hookform/resolvers
 pnpm i sonner
+pnpm i recharts
 ```
 
 Init the Shadcn (npm):
@@ -87,6 +89,8 @@ npm run dev
 - React Hook Form
 - Zod
 - [Sonner](https://sonner.emilkowal.ski/)
+- [Recharts](https://recharts.org/en-US/)
+- [Lucide React Icons](https://lucide.dev/icons/)
 
 ## VS Code Extensions
 
