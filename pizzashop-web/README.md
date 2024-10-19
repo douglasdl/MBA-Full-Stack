@@ -55,6 +55,7 @@ npx shadcn-ui@latest add separator
 npx shadcn-ui@latest add dropdown-menu
 npx shadcn-ui@latest add table
 npx shadcn-ui@latest add select
+npx shadcn-ui@latest add dialog
 ```
 
 Install the needed components from Shadcn (pnpm):
@@ -66,6 +67,7 @@ pnpm dlx shadcn@latest add separator
 pnpm dlx shadcn@latest add dropdown-menu
 pnpm dlx shadcn@latest add table
 pnpm dlx shadcn@latest add select
+pnpm dlx shadcn@latest add dialog
 ```
 
 Start the project:
