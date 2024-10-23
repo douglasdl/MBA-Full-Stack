@@ -20,6 +20,9 @@ npm i react-helmet-async
 npm i react-hook-form zod @hookform/resolvers
 npm i sonner
 npm i recharts
+npm i axios
+npm i @supabase/supabase-js
+npm i @tanstack/react-query
 ```
 
 Install the dependencies (pnpm):
@@ -36,6 +39,9 @@ pnpm i react-helmet-async
 pnpm i react-hook-form zod @hookform/resolvers
 pnpm i sonner
 pnpm i recharts
+pnpm i axios
+pnpm i @supabase/supabase-js
+pnpm i @tanstack/react-query
 ```
 
 Init the Shadcn (npm):
@@ -91,8 +97,48 @@ npm run dev
 - [Sonner](https://sonner.emilkowal.ski/)
 - [Recharts](https://recharts.org/en-US/)
 - [Lucide React Icons](https://lucide.dev/icons/)
+- [Bun](https://bun.sh/)
+- Docker
+
 
 ## VS Code Extensions
 
 - [PostCSS Language Support](https://marketplace.visualstudio.com/items?itemName=csstools.postcss)
 - [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+
+## Backend
+
+- [Bun API](https://github.com/rocketseat-education/pizzashop-api.git)
+
+Install the dependencies:
+```sh
+bun upgrade
+bun i 
+```
+
+Run the migrations:
+```sh
+bun migrate
+```
+
+## Docker
+
+Run the Docker for the backend API:
+```sh
+docker compose up -d
+```
+
+Check if the container is running:
+```sh
+docker ps
+```
+
+Check all the containers status:
+```sh
+docker ps -a
+```
+
+Check the container logs:
+```sh
+docker logs <Container ID>
+```
