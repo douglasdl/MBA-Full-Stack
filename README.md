@@ -36,7 +36,8 @@ Carga horária — 72h
 - Criando SPAs com React
   - [Ignite Timer](https://douglasdl.github.io/MBA-Full-Stack/ignite-timer)
 - Consumo de API e performance no React
-- Vite, React Router DOM, React Hook Form, shadcn/ui, React Query e Vitest (Projeto Pizza Shop)
+- Vite, React Router DOM, React Hook Form, shadcn/ui, React Query e Vitest
+  - [Pizzashop - Web](https://douglasdl.github.io/MBA-Full-Stack/pizzashop-web)
 - Fundamentos do Next.js
 - Design System
 - Autenticadas no Next.js, integração com Google Calendar, validações e Deploy (Projeto Ignite Call)
