@@ -8,7 +8,6 @@ import { toast } from 'sonner'
 import { Link, useSearchParams } from 'react-router-dom'
 import { useMutation } from '@tanstack/react-query'
 import { signIn } from '@/api/sign-in'
-import { supabase } from '@/lib/supabaseClient'
 
 const signInForm = z.object({
   email: z.string().email()
@@ -32,20 +31,9 @@ export function SignIn() {
     mutationFn: signIn,
   })
 
-  async function sendSupabaseMagicLink(email) {
-    const { data, error } = await supabase.auth.signInWithOtp({
-      email,
-      options: {
-        shouldCreateUser: false,
-        emailRedirectTo: 'http://192.168.3.10:5173/',
-      },
-    })
-  }
-
   async function handleSignIn(data: SignInForm) {
     try {
-      // await authenticate({ email: data.email })
-      await sendSupabaseMagicLink(data.email)
+      await authenticate({ email: data.email })
       
       toast.success('Enviamos um link de autenticação para o seu e-mail.', {
         action: {
