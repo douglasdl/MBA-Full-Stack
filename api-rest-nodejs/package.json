@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "Douglas Dias Leal",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
 }

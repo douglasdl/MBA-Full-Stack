@@ -1,6 +1,6 @@
 function calculateUserAge(user) {
-  return new Date().getFullYear() - user.birthYear
+    return new Date().getFullYear() - user.birthYear;
 }
-
-calculateUserAge("Douglas")
-calculateUserAge()
+calculateUserAge({
+    birthYear: 1987
+});
