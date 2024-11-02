@@ -1,5 +1,4 @@
-import { api } from "@/lib/axios";
-// import { supabase } from "@/lib/supabaseClient";
+import { supabase } from "@/lib/supabaseClient";
 
 interface GetManagedRestaurantResponse {
   id: string
@@ -11,8 +10,7 @@ interface GetManagedRestaurantResponse {
 }
 
 export async function getManagedRestaurant() {
-  // const response = await supabase.from('Restaurant').select('*')
-  const response = await api.get<GetManagedRestaurantResponse>('/managed-restaurant')
-
+  const response = await supabase.from('Restaurant').select('*')
+  
   return response.data
 }
