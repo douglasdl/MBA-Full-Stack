@@ -99,3 +99,36 @@ Open the Preferences: Open User Settings (JSON) with CTRL+Shift+P.
   "source.fixAll.eslint": true
 }
 ```
+
+## 2. Database
+
+### Database Access Strategy
+- SQL x No SQL:
+  - [x] SQL
+  - [ ] No SQL (Mongo, Redis)
+- Database: 
+  - [x] SQLite3
+  - [ ] MySQL / MariaDB
+  - [ ] MySQL2
+  - [ ] PostgreSQL
+  - [ ] PG Native
+  - [ ] CockroachDB
+  - [ ] Amazon Redshift
+  - [ ] OracleDB
+  - [ ] MSSQL
+- Connection type: 
+  - [ ] Native Drivers ([mysql2](https://github.com/sidorares/node-mysql2/))
+  - [x] Query Builders ([Knex.js](https://knexjs.org/))
+  - [ ] ORM ([Prisma](https://www.prisma.io/), [Drizzle](https://orm.drizzle.team/))
+
+### Knex Settings
+
+### Create the First Migration
+
+### Create the Transactions Table
+
+### Run Query with Knex
+
+### Environment Variables
+
+### Handle Environment Variables with Zod
