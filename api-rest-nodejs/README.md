@@ -152,10 +152,16 @@ Create a migration:
 npm run knex -- migrate:make add-session-id-to-transactions
 ```
 
-
-
 ### Run Query with Knex
 
 ### Environment Variables
+
+Install the VS Code extension:
+- [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
+
+Install the dependencies:
+```sh
+npm i dotenv
+```
 
 ### Handle Environment Variables with Zod
