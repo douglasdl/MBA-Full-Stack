@@ -131,6 +131,10 @@ npm i sqlite3
 
 ### Create the First Migration
 
+```sh
+npm run knex -- migrate:make create-documents
+```
+
 ### Create the Transactions Table
 
 ### Run Query with Knex
