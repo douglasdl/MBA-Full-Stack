@@ -79,3 +79,23 @@ npm run dev
 ```
 
 ### ESLint Config 
+
+Install the dependencies:
+```sh
+npm i -D eslint @rocketseat/eslint-config
+```
+
+Create the ".eslintrc.json" file:
+```sh
+touch .eslintrc.json
+```
+
+Install the VS Code extension:
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+
+Open the Preferences: Open User Settings (JSON) with CTRL+Shift+P.
+```json
+"editor.codeActionsOnSave": {
+  "source.fixAll.eslint": true
+}
+```
