@@ -123,6 +123,12 @@ Open the Preferences: Open User Settings (JSON) with CTRL+Shift+P.
 
 ### Knex Settings
 
+Install the dependencies:
+```sh
+npm i knex
+npm i sqlite3
+```
+
 ### Create the First Migration
 
 ### Create the Transactions Table
