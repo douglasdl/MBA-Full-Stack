@@ -193,6 +193,8 @@ npm i zod
 
 ### Fastify Plugins
 
+- Separate the routes in other files.
+
 ### Create Transactions
 
 ### Knex Types
