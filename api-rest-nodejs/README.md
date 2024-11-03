@@ -137,6 +137,23 @@ npm run knex -- migrate:make create-documents
 
 ### Create the Transactions Table
 
+Apply the migrations:
+```sh
+npm run knex -- migrate:latest
+```
+
+Undo the last migration:
+```sh
+npm run knex -- migrate:rollback
+```
+
+Create a migration:
+```sh
+npm run knex -- migrate:make add-session-id-to-transactions
+```
+
+
+
 ### Run Query with Knex
 
 ### Environment Variables
