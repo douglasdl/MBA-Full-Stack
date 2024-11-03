@@ -165,3 +165,10 @@ npm i dotenv
 ```
 
 ### Handle Environment Variables with Zod
+
+- alternatives to [Zod](https://zod.dev/), [Joi](https://joi.dev/), [Yup](https://github.com/jquense/yup)
+
+Install the dependencies:
+```sh
+npm i zod
+```
