@@ -185,8 +185,8 @@ npm i zod
 
 #### BR - Business Rules 
 - [x] The transactions can be from the credit type that will add to the total or debit type that will subtract from total;
-- [ ] Must be able to identify the user from the requisitions;
-- [ ] The user must be able to view only the transactions that he created;
+- [x] Must be able to identify the user from the requisitions;
+- [x] The user must be able to view only the transactions that he created;
 
 #### NFR - Non Functional Requirements 
 - [ ] TBD
@@ -213,3 +213,32 @@ npm i @fastify/cookie
 ### Cookie Existence Validation
 
 ### Global Hook Setup
+
+## 4. Automated Tests
+
+### Understanding Automated Tests
+
+### Create the first test
+
+- [ ] [Jest](https://jestjs.io/)
+- [x] [Vitest](https://vitest.dev/)
+
+Install the dependencies:
+```sh
+npm i vitest -D
+```
+
+Run the tests:
+```sh
+npx vitest
+```
+
+### Testing the Transaction Creation
+
+### Categorizing the Tests
+
+### Testing the Transactions Listing
+
+### Config the Tests database
+
+### Finishing the App Tests
