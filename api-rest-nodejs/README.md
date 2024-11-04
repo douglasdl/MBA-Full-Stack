@@ -178,14 +178,14 @@ npm i zod
 ### App Requirements
 
 #### FR - Functional Requirements
-- [ ] The user must be able to create a new transaction;
-- [ ] The user must be able to view his account summary;
-- [ ] The user must be able to list all the past transactions;
-- [ ] The user must be able to view an unique transaction;
+- [x] The user must be able to create a new transaction;
+- [x] The user must be able to view his account summary;
+- [x] The user must be able to list all the past transactions;
+- [x] The user must be able to view an unique transaction;
 
 #### BR - Business Rules 
-- [ ] The transactions can be from the credit type that will add to the total or debit type that will subtract from total;
-- Must be able to identify the user from the requisitions;
+- [x] The transactions can be from the credit type that will add to the total or debit type that will subtract from total;
+- [ ] Must be able to identify the user from the requisitions;
 - [ ] The user must be able to view only the transactions that he created;
 
 #### NFR - Non Functional Requirements 
