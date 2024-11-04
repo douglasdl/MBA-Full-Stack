@@ -235,6 +235,12 @@ npx vitest
 
 ### Testing the Transaction Creation
 
+Install the dependencies:
+```sh
+npm i supertest -D
+npm i -D @types/supertest
+``` 
+
 ### Categorizing the Tests
 
 ### Testing the Transactions Listing
