@@ -205,6 +205,11 @@ npm i zod
 
 ### Using Cookies in Fastify
 
+Install the dependencies:
+```sh
+npm i @fastify/cookie
+```
+
 ### Cookie Existence Validation
 
 ### Global Hook Setup
