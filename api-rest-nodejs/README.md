@@ -335,3 +335,9 @@ Install the Postgres dependencies:
 ```sh
 npm i pg
 ```
+
+Build command for Render.com:
+
+```sh
+npm i && npm run knex --migrate:latest && npm run build
+```
