@@ -147,7 +147,7 @@ Install the dependencies:
 
 ```sh
 npm i knex
-npm i sqlite3
+npm i sqlite3 -D
 ```
 
 ### Create the First Migration
@@ -325,3 +325,13 @@ gh repo view -w
 ```
 
 ### App deploy at Render
+
+- [Render.com](https://render.com/)
+- [Fly.io](https://fly.io/)
+- [Railway](https://railway.app/)
+
+Install the Postgres dependencies:
+
+```sh
+npm i pg
+```
