@@ -78,6 +78,18 @@ npm i zod
 
 ### Configuring the ESLint
 
+Install the dependencies:
+
+```sh
+npm i eslint @rocketseat/eslint-config -D
+```
+
+Create your own ESLint:
+
+```sh
+npx eslint --init
+```
+
 ### Create the importation alias
 
 ## 2. Prisma ORM Integration
