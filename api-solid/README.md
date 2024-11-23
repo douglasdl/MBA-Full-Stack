@@ -69,6 +69,13 @@ npx tsc --init
 
 ### Loading environment variables
 
+Install the dependencies:
+
+```sh
+npm i dotenv
+npm i zod
+```
+
 ### Configuring the ESLint
 
 ### Create the importation alias
