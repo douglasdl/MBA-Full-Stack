@@ -94,6 +94,57 @@ npx eslint --init
 
 ## 2. Prisma ORM Integration
 
+### Prisma ORM Fundaments
+
+- [ ] Driver nativo ([Node PG](https://node-postgres.com/))
+- [ ] Query Builder ([Knex](https://knexjs.org/))
+- [x] ORM - Object Relational Mapper ([Prisma](https://www.prisma.io/) - [TypeORM](https://typeorm.io/)) - [Sequelize](https://sequelize.org/))
+
+VSCode Extension:
+
+````sh
+- [Prisma](https://marketplace.visualstudio.com/items?itemName=Prisma.prisma)
+
+Press CTRL+SHIFT+P then ">json" and open the "Preferences: Open User settings.json" and add this:
+```json
+"[prisma]": {
+  "editor.formatOnSave": true
+},
+````
+
+Install the dependencies:
+
+```
+
+npm i prisma -D
+npm i @prisma/client
+
+```
+
+Create the Prisma schema:
+
+```sh
+npx prisma init
+```
+
+Create the Typescript types based on the schema models:
+
+```sh
+npx prisma generate
+```
+
+### Docker Fundaments
+
+### PostgreSQL with Docker
+
+###
+
+###
+
+###
+
+###
+
 ## 3. Design Patterns & Use Cases
 
 ## 4. Design Patterns & Tests
