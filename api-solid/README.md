@@ -38,6 +38,33 @@ GymPass style app.
 
 ### Create the Node.js Project
 
+Create the package.json:
+
+```sh
+npm init -y
+```
+
+Create the src and server.ts:
+
+```sh
+mkdir src
+touch src/server.ts
+touch src/app.ts
+```
+
+Install the dependencies:
+
+```sh
+npm i typescript @types/node tsx tsup -D
+npm i fastify
+```
+
+Create the tsconfig.json:
+
+```sh
+npx tsc --init
+```
+
 ### Using the NPM exact versions
 
 ### Loading environment variables

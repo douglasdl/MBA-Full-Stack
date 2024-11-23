@@ -130,3 +130,6 @@ out
 .pnp.*
 
 .DS_Store
+
+api-solid/build
+api-solid/node_modules
