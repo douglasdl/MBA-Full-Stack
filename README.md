@@ -64,7 +64,9 @@ Carga horária — 72h
 Carga horária — 72h
 
 - Fundamentos do React Native
+  - [MySkills](https://github.com/douglasdl/MySkills) 
 - Criação de Interfaces
+  - [Ignite Teams](https://github.com/douglasdl/IgniteTeams)
 - Estratégias de Navegação
 - Component Library
 - Integração com Back-end
