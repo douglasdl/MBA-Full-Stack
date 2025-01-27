@@ -54,6 +54,19 @@ Carga horária — 72h
 - Criando API REST com Node.js
 - API Node.js com SOLID
 - DDD no Node.js
+ - [nodejs-fundaments](https://douglasdl.github.io/ddd-forum)
+  - Domain-Driven Design
+    - Domain: knowledge area.
+      - Domain Experts
+        - Speech 
+      - Ubiquitous Language
+      - User (Client, Supplier, Atendant, Barman, etc)
+  - Aggregates
+  - Value Objects
+  - Domain Events
+  - Bounded Contexts
+  - Entities
+  - Use Cases 
 - NestJS
 - Atividades complementares, tech challenge de projetos para portfólio
 - Masterclass online e ao vivo com referências do mercado
