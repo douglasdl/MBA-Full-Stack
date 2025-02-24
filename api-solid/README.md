@@ -135,17 +135,69 @@ npx prisma generate
 
 ### Docker Fundaments
 
+- [Docker Installation Documentation](https://docs.docker.com/get-started/get-docker/)
+
 ### PostgreSQL with Docker
 
-###
+Check if docker is installed:
 
-###
+```sh
+docker -v
+```
 
-###
+- [Docker Hub](https://hub.docker.com/)
 
-###
+Run the docker image:
+
+```sh
+docker run --name api-solid-pg bitnami/postgresql
+# adding some configs
+docker run --name api-solid-pg -e POSTGRESQL_USERNAME=docker -e POSTGRESQL_PASSWORD=docker -e POSTGRESQL_DATABASE=apisolid -p 5432:5432 bitnami/postgresql
+```
+
+- [Postico](https://eggerapps.at/postico2/)
+
+Check the running containers:
+
+```sh
+docker ps
+# Show stopped too
+docker ps -a
+```
+
+Stop the container:
+
+```sh
+docker stop api-solid-pg
+```
+
+Start the container
+
+```sh
+docker start api-solid-pg
+```
+
+Delete the container image:
+
+```sh
+docker rm api-solid-pg
+```
+
+Sho the logs:
+
+```sh
+docker logs api-solid-pg
+```
+
+### Using Docker Compose
+
+### Create a Prisma Schema
+
+### Tables Relations
 
 ## 3. Design Patterns & Use Cases
+
+###
 
 ## 4. Design Patterns & Tests
 

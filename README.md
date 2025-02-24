@@ -54,6 +54,7 @@ Carga horária — 72h
 - Criando API REST com Node.js
 - API Node.js com SOLID
 - DDD no Node.js
+  - [ddd-forum](https://github.com/douglasdl/ddd-forum)
 - NestJS
 - Atividades complementares, tech challenge de projetos para portfólio
 - Masterclass online e ao vivo com referências do mercado
