@@ -68,9 +68,12 @@ Carga horária — 72h
 - Criação de Interfaces
   - [Ignite Teams](https://github.com/douglasdl/IgniteTeams)
 - Estratégias de Navegação
+  - [iBuy](https://github.com/douglasdl/ibuy)
 - Component Library
+  - [Ignite Gym](https://github.com/douglasdl/ignitegym)
 - Integração com Back-end
 - Push Notifications
+  - [Ignite Shoes](https://github.com/douglasdl/IgniteShoes)
 - Deep Linking
 - Animações e Microinteração
 - Login Social
