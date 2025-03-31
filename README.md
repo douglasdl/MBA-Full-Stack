@@ -38,7 +38,8 @@ Carga horária — 72h
 - Consumo de API e performance no React
 - Vite, React Router DOM, React Hook Form, shadcn/ui, React Query e Vitest
   - [Pizzashop - Web](https://douglasdl.github.io/MBA-Full-Stack/pizzashop-web)
-- Fundamentos do Next.js
+- [Next13 Fundamentals](https://github.com/douglasdl/next13-fundamentals)
+- [DevStore](https://github.com/douglasdl/devstore)
 - Design System
 - Autenticadas no Next.js, integração com Google Calendar, validações e Deploy (Projeto Ignite Call)
 - Atividades complementares, tech challenge de projetos para portfólio
