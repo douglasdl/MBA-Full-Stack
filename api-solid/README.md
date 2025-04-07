@@ -223,13 +223,15 @@ docker compose down
 
 ### Create a Prisma Schema
 
-
-
 ### Tables Relations
 
 ## 3. Design Patterns & Use Cases
 
-###
+### User Creation
+
+### Register Controller
+
+### Register UseCase
 
 ## 4. Design Patterns & Tests
 
