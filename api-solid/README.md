@@ -201,7 +201,29 @@ npx prisma studio
 
 ### Using Docker Compose
 
+Start the container:
+```sh
+docker compose up -d
+```
+
+Stop the container:
+```sh
+docker compose stop
+```
+
+Stop the container:
+```sh
+docker compose start
+```
+
+Stop and delete the container:
+```sh
+docker compose down
+```
+
 ### Create a Prisma Schema
+
+
 
 ### Tables Relations
 
