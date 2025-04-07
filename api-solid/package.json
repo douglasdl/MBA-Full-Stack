@@ -4,6 +4,8 @@
   "description": "GymPass style app.",
   "main": "index.js",
   "scripts": {
+    "migrate": "prisma migrate dev",
+    "studio": "prisma studio",
     "start:dev": "tsx watch src/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsup src --out-dir build",

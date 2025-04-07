@@ -155,7 +155,7 @@ docker run --name api-solid-pg bitnami/postgresql
 docker run --name api-solid-pg -e POSTGRESQL_USERNAME=docker -e POSTGRESQL_PASSWORD=docker -e POSTGRESQL_DATABASE=apisolid -p 5432:5432 bitnami/postgresql
 ```
 
-- [Postico](https://eggerapps.at/postico2/)
+- [Postico](https://eggerapps.at/postico2/): Postgres Database viewer.
 
 Check the running containers:
 
@@ -183,10 +183,20 @@ Delete the container image:
 docker rm api-solid-pg
 ```
 
-Sho the logs:
+Show the logs:
 
 ```sh
 docker logs api-solid-pg
+```
+
+Run the Prisma migration to the database:
+```sh
+npx prisma migrate dev
+```
+
+Check the Database with Prisma Studio:
+```sh
+npx prisma studio
 ```
 
 ### Using Docker Compose
