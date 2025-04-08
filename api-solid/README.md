@@ -231,7 +231,25 @@ docker compose down
 
 ### Register Controller
 
+### Password Hash and Validation
+
+Install the dependencies:
+```sh
+pnpm i bcryptjs
+pnpm i @biomejs/biome -D
+```
+
 ### Register UseCase
+
+### Repository Pattern
+
+### Dependencies Inversion
+
+### Repository Interface
+
+### UseCase Errors Handler
+
+### Global Errors Handler
 
 ## 4. Design Patterns & Tests
 

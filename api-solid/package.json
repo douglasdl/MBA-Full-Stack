@@ -15,9 +15,8 @@
   "author": "Douglas Dias Leal",
   "license": "ISC",
   "devDependencies": {
-    "@rocketseat/eslint-config": "2.2.2",
+    "@biomejs/biome": "1.9.4",
     "@types/node": "22.9.3",
-    "eslint": "8.57.1",
     "prisma": "6.5.0",
     "tsup": "8.3.5",
     "tsx": "4.19.2",
@@ -25,6 +24,7 @@
   },
   "dependencies": {
     "@prisma/client": "6.5.0",
+    "bcryptjs": "3.0.2",
     "dotenv": "16.4.5",
     "fastify": "5.1.0",
     "zod": "3.23.8"
