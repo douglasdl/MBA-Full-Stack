@@ -253,10 +253,98 @@ pnpm i @biomejs/biome -D
 
 ## 4. Design Patterns & Tests
 
+### Vitest Configuration
+
+Install the dependencies:
+```sh
+pnpm i vitest vite-tsconfig-paths -D
+```
+
+### First Unit Test
+
+### In-Memory Databases
+
+### Tests Coverage Generation
+
+### Using UI Vitest
+
 ## 5. Use Cases Implementations
 
-## 6. COntrollers & E2E Tests
+### Authentication UseCase
+
+### Authentication Tests and Controller
+
+### Refactor Instances on Tests
+
+### Using Factory Pattern
+
+### Profile UseCase
+
+### CheckIn UseCase
+
+### TDD & Mocking
+
+### Check-in Date Validation
+
+### Check-in Distance Validation 
+
+### Gym Creation UseCase
+
+### History UseCase
+
+### Metrics UseCase
+
+### Gyms Search UseCase
+
+### NearBy Gyms UseCase
+
+### CHeck-in Validation UseCase
+
+### Check-in Time Validation
+
+## 6. Controllers & E2E Tests
+
+### Prisma Repositories
+
+### Gyms Repositories
+
+### Factories UseCases
+
+### JWT Authentication Principles
+
+### Profile Controller
+
+### Environment Test
+
+### Organizing NPM scripts
+
+### Prisma Environment Tests
+
+### Register E2E Test
+
+### Gym Creation Controller
+
+### Gym Other Controllers
+
+### Check-in Routes Controller
+
+### Gym Routes E2E Tests
+
+### Check-in Routes E2E Tests
+
 
 ## 7. Refresh Token & RBAC
 
+### Token Refresh Strategy
+
+### Refresh Token Implementation
+
+### Role Based Access-Control (RBAC)
+
+### RBAC Tests
+
 ## 8. Application CI/CD
+
+### Run CI Unit Tests
+
+### Run CI E2E Tests
