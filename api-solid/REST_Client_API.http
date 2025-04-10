@@ -4,8 +4,15 @@ content-type: application/json
 
 {
   "name": "Douglas",
-  "email": "douglas_san6@hotmail.com",
+  "email": "douglas_san@hotmail.com",
   "password": "123456"
 }
 
-###
+### Authenticate User
+POST http://localhost:3333/sessions HTTP/1.1
+content-type: application/json
+
+{
+  "email": "douglas_san6@hotmail.com",
+  "password": "123456"
+}
