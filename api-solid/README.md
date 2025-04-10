@@ -266,6 +266,15 @@ pnpm i vitest vite-tsconfig-paths -D
 
 ### Tests Coverage Generation
 
+Install the dependencies:
+```sh
+pnpm i @vitest/coverage-v8 -D
+```
+
+```sh
+npm run test:coverage
+```
+
 ### Using UI Vitest
 
 ## 5. Use Cases Implementations

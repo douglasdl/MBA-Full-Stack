@@ -10,6 +10,7 @@
     "start:dev": "tsx watch src/server.ts",
     "test": "vitest run",
     "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
     "build": "tsup src --out-dir build",
     "start": "node build/server.js"
   },
@@ -19,6 +20,7 @@
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
     "@types/node": "22.9.3",
+    "@vitest/coverage-v8": "3.1.1",
     "prisma": "6.5.0",
     "tsup": "8.3.5",
     "tsx": "4.19.2",
