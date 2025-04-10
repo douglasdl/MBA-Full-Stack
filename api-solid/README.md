@@ -271,11 +271,22 @@ Install the dependencies:
 pnpm i @vitest/coverage-v8 -D
 ```
 
+Run:
 ```sh
-npm run test:coverage
+pnpm run test:coverage
 ```
 
 ### Using UI Vitest
+
+Install the dependencies:
+```sh
+pnpm i @vitest/ui -D
+```
+
+Run:
+```sh
+pnpm run test:ui
+```
 
 ## 5. Use Cases Implementations
 
