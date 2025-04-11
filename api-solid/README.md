@@ -17,7 +17,7 @@ GymPass style app.
 - [ ] Must be possible to get the user check-ins history;
 - [ ] Must be possible to search for near by gyms;
 - [ ] Must be possible to search for gyms by name;
-- [ ] Must be possible to do a user check-in in a gyms;
+- [x] Must be possible to do a user check-in in a gym;
 - [ ] Must be possible to validate a user check-in;
 - [ ] Must be possible to register a gym;
 
@@ -303,6 +303,11 @@ pnpm run test:ui
 ### CheckIn UseCase
 
 ### TDD & Mocking
+
+- Test Driving Development
+  - red
+  - green
+  - refactor
 
 ### Check-in Date Validation
 
